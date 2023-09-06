@@ -1,0 +1,531 @@
+/* style.css */
+
+/* Define font families */
+body {
+    font-family: 'Urbanist', sans-serif;
+    line-height: 125%;
+    /*background-image: url("./Assets/Bg-image.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: content-box;
+    overflow-y: scroll;
+    background-color: #f2f4f7 !important;
+    /*cursor: url('./Assets/Ellipse\ 2171.svg') 10 10, auto;
+    Replace with your circle cursor image */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Urbanist', Arial, sans-serif;
+}
+
+
+/* Define font sizes */
+h1 {
+    font-size: 52px !important;
+
+    font-weight: 400 !important;
+}
+
+h2 {
+    font-size: 36px !important;
+    font-weight: 600 !important;
+
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.second-fold p {
+    color: #1a1a1a;
+    font-size: 24px;
+
+}
+
+.col-md-8 {
+    padding-top: 70px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Define font weights */
+h1 {
+    font-weight: 700;
+    /* bold */
+}
+
+h2,
+h3,
+h5,
+h6 {
+    font-weight: 600;
+    /* bold */
+}
+
+#custom_nav_style {
+    padding: 16px;
+    justify-content: center;
+
+}
+
+.Nav-Bar {
+    width: 100% !important;
+}
+
+/* Define font styles */
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Define font colors */
+body {
+    color: #1A1A1A;
+    /* Default text color */
+}
+
+
+
+a {
+    color: #007bff;
+    /* Link text color */
+}
+
+/* Customize other HTML elements as needed */
+header {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.hero-section {
+    width: auto;
+    height: max-content;
+
+    background: url("./Assets/pexels-oleg-lehnitsky-7898649\ \(1080p\).mp4");
+    background-size: 600% 600%;
+
+
+}
+
+.progress {
+    height: 6px !important;
+    width: 0;
+    background-color: #434BED !important;
+    /* Color of the progress bar */
+    position: fixed;
+    top: 72px;
+    left: 0;
+    z-index: 9999;
+    /* Ensure it's on top of everything */
+    transition: width 0.01s ease-in-out;
+    /* Animation duration and easing */
+}
+
+.aboutme {
+    line-height: 64px;
+    max-width: 870px;
+    font-size: bold;
+}
+
+.second-fold {
+    padding: 0px 0px;
+}
+
+.work-image {
+    width: 100%;
+    height: auto;
+}
+
+.My-work {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 85px 50px 0 50px;
+    background-color: #A3BCDE;
+    width: fit-content;
+    margin: 40px 0px 12px;
+    height: auto;
+}
+
+.case-study-image {
+    display: flex;
+    width: fit-content;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+
+}
+
+.Animation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 85px 50px 0 50px;
+    background-color: #B3EAFB;
+    width: fit-content;
+    margin: 40px 0px 12px;
+}
+
+.Gift-ease {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 85px 50px 0 50px;
+    background-color: #F2C2C2;
+    width: fit-content;
+    margin: 40px 0px 12px;
+}
+
+.desc {
+    color: #1A1A1A;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.eyebrow {
+    color: #1a1a1a;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 1rem;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+.Topic {
+    color: #1a1a1a;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 1rem;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+.container {
+
+    margin: 20px;
+    padding: 0px 20px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.Welcoming {
+    color: #434BED;
+    margin-top: 140px;
+}
+
+/* Navbar styles */
+/* Style for the transparent initial state of the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style for the filled state of the navigation bar */
+.navbar.filled {
+    background-color: #ffffff;
+}
+
+
+
+
+
+/* Add a border to the navigation bar */
+
+
+.navbar .container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #1A1A1A;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    grid-column-gap: 8px;
+    margin-left: 12px !important;
+
+}
+
+.navbar a:hover {
+
+    color: black;
+}
+
+
+.image-container {
+    height: fit-content;
+    width: fit-content;
+
+
+}
+
+/*About Page*/
+.mydetails {
+    text-align: left;
+    /* Align the content inside mydetails div to the left */
+    padding: 20px;
+    /* Add padding as needed */
+}
+
+
+.logo {
+    float: left;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: left;
+    position: relative;
+    /* Add position relative */
+}
+
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.thankyou {
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.invite {
+    padding-bottom: 4px;
+}
+
+.button {
+    padding: 4px 12px;
+    color: #1a1a1a;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #1A1A1A;
+    background-color: transparent;
+    margin-right: 30px;
+    border-radius: 4px;
+
+}
+
+
+.button:hover {
+    background-color: #434BED;
+    color: #fff;
+}
+
+/* Design System*/
+.row {
+    padding: 20px 0px 20px;
+}
+
+/* Right-align the navigation links for larger screens */
+.navbar-links {
+    float: right;
+    padding: 4px;
+}
+
+/* Hide the navigation links by default on mobile view */
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    /* Center-align the logo on mobile view */
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    /* Show the hamburger icon on mobile view */
+    .hamburger {
+        float: left;
+        cursor: pointer;
+        padding: 15px;
+        align-items: flex-end;
+        border: none;
+        /* Remove the border */
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #1A1A1A;
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 28px !important;
+
+        font-weight: 400 !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+
+    }
+
+    h3 {
+        font-size: 22px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    h6 {
+        font-size: 16px !important;
+    }
+
+    .nav-item {
+        margin: 4px 0px 4px !important;
+    }
+
+    .navbar-nav {
+        margin: 8px 0px 8px !important;
+    }
+
+    .container {
+        padding: 0px 20px 60px px !important;
+    }
+
+    .My-work {
+
+        padding: 45px 30px 0 30px !important;
+    }
+
+    .second-fold {
+        padding: 20px 0px !important;
+    }
+
+
+    /* Show the navigation links when hamburger is clicked */
+    #navbar-links.show {
+        display: block;
+        float: none;
+        text-align: top;
+    }
+
+    /* Media query for small screens */
+    /* Media query for small screens */
+    @media screen and (max-width: 600px) {
+        .navbar-nav {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            /* Start off-screen */
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: left 0.3s ease;
+            /* Add a smooth slide-in animation */
+            z-index: 9999;
+            /* Ensure it's above other content */
+        }
+
+        .navbar-toggler {
+            display: block;
+            /* Show the menu button */
+        }
+
+        .navbar-toggler img {
+            display: inline;
+        }
+
+        .navbar-toggler .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #1A1A1A;
+            margin: 5px 0;
+            transition: transform 0.2s ease-in-out;
+            /* Add a smooth animation */
+        }
+
+        /* Rotate the bars to form a close icon when menu is open */
+        .navbar-toggler.active .bar:nth-child(1) {
+            transform: translateY(6px) rotate(-45deg);
+        }
+
+        .navbar-toggler.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .navbar-toggler.active .bar:nth-child(3) {
+            transform: translateY(-6px) rotate(45deg);
+        }
+
+        /* Show the navigation links when menu button is clicked */
+        .navbar-nav.active {
+            left: 0;
+            /* Slide it into view */
+        }
+
+        /* Style for each navigation item */
+        .navbar-nav .nav-item {
+            margin: 20px 0;
+        }
+    }
+
+
+}
